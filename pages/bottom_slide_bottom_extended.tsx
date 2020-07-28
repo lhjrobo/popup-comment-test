@@ -11,16 +11,7 @@ const BottomSlide = () => {
   const [focusTrigger, setFocusTrigger] = React.useState(false);
   const [cursorOnTrig, setCursorOnTrig] = React.useState(false);
   const [openTrig, setOpenTrig] = React.useState(false);
-  const [otherComments, setOtherComments] = React.useState([
-    "a",
-    "b",
-    "c",
-    "d",
-    "erer",
-    "a",
-    "b",
-    "c",
-  ]);
+  const otherComments = ["a", "b", "c", "d", "erer", "a", "b", "c"];
 
   const { x } = useSpring({ x: openTrig ? 0 : cursorOnTrig ? 290 : 300 });
 
