@@ -5,13 +5,24 @@ const IndexPage = () => {
   return (
     <>
       <div>
-        <Link href="./bottom">右下コメント欄固定</Link>
+        <Link href="./bottom">
+          <a>右下コメント欄固定</a>
+        </Link>
       </div>
       <div>
-        <Link href="./bottom_slide_bottom">右下コメント欄スライド(下)</Link>
+        <Link href="./bottom_slide_bottom">
+          <a>右下コメント欄スライド(下)</a>
+        </Link>
       </div>
       <div>
-        <Link href="./bottom_slide_right">右下コメント欄スライド(右)</Link>
+        <Link href="./bottom_slide_right">
+          <a>右下コメント欄スライド(右)</a>
+        </Link>
+      </div>
+      <div>
+        <Link href="./bottom_slide_bottom_extended">
+          <a>右下コメント欄スライド_拡張(下)</a>
+        </Link>
       </div>
       <Global styles={globalCSS} />
     </>
