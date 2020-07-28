@@ -24,6 +24,11 @@ const IndexPage = () => {
           <a>右下コメント欄スライド_拡張(下)</a>
         </Link>
       </div>
+      <div>
+        <Link href="./bottom_slide_bottom_icon">
+          <a>右下コメント欄スライド_アイコン(下)</a>
+        </Link>
+      </div>
       <Global styles={globalCSS} />
     </>
   );
