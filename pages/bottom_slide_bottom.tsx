@@ -19,13 +19,13 @@ const BottomSlide = () => {
     setCommentContent(e.target.value);
     console.log(commentContent);
   };
-  const handleContentFocus = (e: React.FocusEvent<HTMLTextAreaElement>) => {
+  const handleContentFocus = () => {
     if (focusTrigger === false) {
       setFocusTrigger(true);
       setCommentContent("");
     }
   };
-  const handleSubmit = (e: React.MouseEvent<HTMLSpanElement>) => {
+  const handleSubmit = () => {
     if (openTrig === true && commentContent !== "") {
       setFocusTrigger(false);
       setCommentContent("ここにコメント入力");
